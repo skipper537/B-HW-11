@@ -1,0 +1,299 @@
+body {
+    width: 100vw;
+}
+
+.header {
+    display: flex;
+    width: 935px;
+    margin-left: 210px;
+    margin-top: 13px;
+    height: 50px;
+    justify-content: space-between;
+}
+
+.input-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: -4px;
+    width: 216px;
+    height: 29px;
+}
+
+.input-icons i {
+    position: absolute;
+
+}
+
+.input_search {
+    display: flex;
+    text-align: center;
+    background: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+}
+
+.icon {
+    margin-top: 6px;
+    margin-left: -70px;
+
+    color: rgb(168, 167, 167);
+}
+
+.small_avatar {
+    margin-left: 1px;
+    width: 22px;
+    height: 22px;
+    background: #4094EF;
+    border-radius: 50px;
+}
+
+.header_navigation {
+    width: 191px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_navigation img {
+    width: 22px;
+    height: 22px;
+}
+
+.line_between {
+    margin-top: 0;
+    height: 1px;
+    background: #DBDBDB;
+}
+
+/* -----------------------------------------Section Main ----------------------------------------- */
+.full_information {
+    display: flex;
+    height: 446px;
+    width: 942px;
+    margin-left: 210px;
+    margin-top: 29px;
+}
+
+.Avatar {
+    width: 154px;
+    height: 153px;
+    border-radius: 50%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(Checker.png);
+}
+
+.name {
+    display: flex;
+    align-items: center;
+}
+
+.name h1 {
+    width: 68px;
+    height: 33px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #262626;
+}
+
+.btn_follow {
+    margin-top: -2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 97px;
+    height: 29px;
+    margin-left: 26px;
+    background: #4094EF;
+    border-radius: 3px;
+}
+
+.dropdown_btn {
+    margin-top: -2px;
+    margin-left: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33px;
+    height: 29px;
+    left: 777px;
+    top: 87px;
+    background: #4094EF;
+    border-radius: 3px;
+}
+
+.dropdown_btn::after {
+    margin-left: 0;
+}
+
+.dots {
+    margin-left: 16px;
+    margin-top: -5px;
+    height: 29px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dots div {
+    height: 4px;
+    width: 4px;
+    border-radius: 50%;
+    background-color: #262626;
+}
+
+.quantity {
+    display: flex;
+    width: 348px;
+    height: 21px;
+    margin: 21px 0;
+    justify-content: space-between;
+}
+
+.quantity span {
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #262626;
+}
+
+.about {
+    text-align: start;
+}
+
+.about h3 {
+    width: 47px;
+    height: 21px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #262626;
+}
+
+.selected {
+    margin-top: 56px;
+    margin-left: 0;
+}
+
+.selected_photos {
+    width: 79px;
+    height: 79px;
+    border-radius: 50%;
+    border: 2px solid #DBDBDB;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(Checker.png);
+
+}
+
+.name_of_selected {
+    display: flex;
+    margin-top: 10px;
+}
+
+.name_of_selected span {
+    margin-right: 97px;
+    margin-left: 18px;
+}
+
+.about_text p {
+    margin-bottom: 0%;
+    width: 531px;
+    height: 51px;
+    left: 578px;
+    top: 203px;
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    color: #262626;
+}
+
+.about_text span {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #133768;
+}
+
+/* --------------------------------Sectiona Photos------------ */
+.line_between2 {
+    display: flex;
+    margin-top: 0;
+    background: #DBDBDB;
+    height: 1px;
+    width: 950px;
+    margin-left: 200px;
+}
+
+.inline {
+    display: flex;
+    margin-top: 19px;
+    align-items: center;
+}
+
+.inline img {
+    margin-right: 5px;
+    width: 11px;
+    height: 11px;
+}
+
+.header_of_photoalbom {
+    width: 950px;
+    height: 20px;
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alboms_header_text {
+    width: 62px;
+}
+
+.POSTS {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.09em;
+    color: #262626;
+}
+
+.TAGGED {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.09em;
+    color: #8F8F8F;
+}
+
+.photoalboms {
+    width: 950px;
+    margin-left: 200px;
+}
+
+.photo {
+    width: 297px;
+    height: 297px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(Checker.png);
+    margin: 25px;
+}
+@import url(./fonts/stylesheet.css);
